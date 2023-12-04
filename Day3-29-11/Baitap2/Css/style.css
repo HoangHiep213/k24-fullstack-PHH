@@ -1,0 +1,38 @@
+.Cau1, .Cau2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.HV1 {
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.HV2 {
+    position: absolute;
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    margin: 50px 50px;
+}
+
+.HV3 {
+    position: absolute;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    margin: 50px 50px;    
+}
+
+.Cau2 .HV2 {
+    margin: 50px 0px 0px 0px;
+}
+
+.Cau2 .HV3 {
+    margin: 150px 0px 0px 200px;
+}
+
